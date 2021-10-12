@@ -1,10 +1,11 @@
-#ifndef _NODE_HPP
-#define _NODE_HPP
+#include "node.hpp"
 
-class node 
-{
-    
-}
+ void Node::add(Edge edge)
+ {
+     edges.push_back(edge);
+ }
 
-
-#endif
+ void Node::remove(Edge edge)
+ {
+     edges.pop_back(edge);
+ }

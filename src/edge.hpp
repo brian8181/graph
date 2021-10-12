@@ -3,7 +3,13 @@
 
 class Edge
 {
+    public:
 
+    Edge(const Node&  node);
+    
+    private:
+
+    Node* edge;
 }
 
 #endif

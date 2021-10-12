@@ -16,8 +16,9 @@ man1dir = $(mandir)/man1
 
 # Compiler settings - Can be customized.
 CXX = g++
+
 # HACK! DEBUG OR NOT HERE
-CXXFLAGS = -Wall -std=c++11 -DDEBUG -ggdb
+CXXFLAGS = -Wall -std=c++11 -std=gnu++17 -DDEBUG -ggdb
 
 # lib settings
 LDFLAGS = -static -lcppunit -L/usr/local/lib/
